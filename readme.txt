@@ -39,6 +39,9 @@ It support following shipping providers (UPS, USPS, FEDEX, DHL)
 5.	Locate the "UberCX Shipping Tracking" sub-menu under WooCommerce menu on the admin dashboard and enter the User Key. You can get the User Key from ubercx.io/plans.
 6.	Select Yes for the Enabled field and click "Submit".
 
+= Demo Video with installation instructions =
+https://youtu.be/_zDO8d-8Ots
+
 == Screenshots ==
 
 1. Plugin Settings page. Remember, plugin settings option is available under WooCommerce menu.
