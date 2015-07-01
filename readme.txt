@@ -40,6 +40,7 @@ It support following shipping providers (UPS, USPS, FEDEX, DHL)
 6.	Select Yes for the Enabled field and click "Submit".
 
 == Screenshots ==
+
 1.	Plugin Settings page. Remember, plugin settings option is available under WooCommerce menu.
 2.	Customer view of, how detailed tracking will look like.
 3.	Customer view of order detail page. It has link to shipping tracking pop-up.
