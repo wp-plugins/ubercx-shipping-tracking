@@ -2,14 +2,12 @@
 Contributors: ubercx
 Tags: WooCommerce, shipping tracking, UPS, USPS, FEDEX, DHL, Shipping, Tracking
 Requires at least: 4.0.1
-Tested up to: 4.3
-Stable tag: 4.3
+Tested up to: 4.2.2
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-WC requires at least: 2.2
-WC tested up to: 2.3.11
 
-This plugin provides live shipping tracking details in JSON format.
+WooCommerce plugin provides live shipping tracking details for USPS, UPS, FedEx, DHL. It invokes UberCX APIs to render results in tabular format.
 
 == Description ==
 
@@ -50,4 +48,3 @@ It support following shipping providers (UPS, USPS, FEDEX, DHL)
 = 1.0.0 =
 * First release of plugin!
 * Fully functional with four shipping carriers.
-
