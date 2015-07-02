@@ -34,6 +34,8 @@ require_once( plugin_dir_path( __FILE__ ) . 'class-uc-frontend.php' );
 
 // Register hooks that are fired when the plugin is activated, deactivated, and uninstalled, respectively.
 register_activation_hook( __FILE__, array( 'UC_BACKEND', 'uc_plugin_activate' ) );
+//Code For Deactivation 
+register_deactivation_hook( __FILE__, array( 'UC_BACKEND', 'uc_plugin_deactivate_plugin' ) );
 UC_BACKEND::get_instance();
 UC_Frontend::get_instance();
 ?>

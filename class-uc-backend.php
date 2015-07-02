@@ -47,8 +47,6 @@ class UC_BACKEND{
 		// Database variables
 		global $wpdb;
 		$this->db 					= &$wpdb;
-		//Code For Deactivation 
-		register_deactivation_hook( __FILE__, array( &$this, 'uc_plugin_deactivate_plugin' ) );
 		//Adds menu
 		add_action( 'admin_menu', array( &$this, 'uc_admin_menu'), 12 );
 		//uc register settings
@@ -74,18 +72,6 @@ class UC_BACKEND{
 		}
 		update_option('uc_plugin_activate', true);
 	}	
-	
-	
-	
-	/**
-	 * Function to process plugin related WP options
-	 * 
-	 * @since 1.0.0
-	 */
-	function uc_process_option($varName){
-		
-		delete_option($varName);
-    }
    
  	/**
 	 * Function to register deactivation actions
@@ -94,7 +80,8 @@ class UC_BACKEND{
 	 */
 	function uc_plugin_deactivate_plugin(){ 
 	
-		$this->uc_process_option('uc_plugin_activate');
+		delete_option('uc_plugin_activate');
+		delete_option('uc_settings');
 	}
 	
 	
