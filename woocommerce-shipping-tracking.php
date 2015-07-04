@@ -1,19 +1,19 @@
 <?php
-/**
- * UberCX Shipping Tracking
- * @package   UC
- * @author    Ubercx Developer <ubercx@jframeworks.com>
- * @link      http://ubercx.io/
- * @copyright 2015 Ubercx
- * @wordpress-plugin
- * Plugin Name: UberCX Shipping Tracking
- * Plugin URI:  http://ubercx.io/
- * Description: UberCX Shipping Tracking is a WooCommerce addon that allows customers to track shipping of their orders from their account section.
- * Version: 1.0.0
- * Author: UberCX Developer
- * Author URI:  http://ubercx.io/
- * License: GPL-2.0
- * Text Domain: ubercx-shipping-tracking
+ /**
+ * Plugin Name: WooCommerce Extension
+ * Plugin URI: http://woothemes.com/products/woocommerce-plugin-ubercx-shipping-tracking/
+ * Description: UberCX Shipping Tracking is a WooCommerce plugin that allows customers to see embedded tracking status of their shipped orders.
+ * Version: 1.0.1
+ * Author: WooThemes
+ * Author URI: http://woothemes.com/
+ * Developer: UberCX Team
+ * Developer URI: https://ubercx.io/
+ * Text Domain: woocommerce-extension
+ * Domain Path: /languages
+ *
+ * Copyright: © 2009-2015 WooThemes.
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
  
  // Exit if accessed directly.
