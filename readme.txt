@@ -6,6 +6,8 @@ Tested up to: 4.2.2
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+WC requires at least: 2.2
+WC tested up to: 2.3.11
 
 WooCommerce plugin provides live shipping tracking details for USPS, UPS, FedEx, DHL. It invokes UberCX APIs to render results in tabular format.
 
