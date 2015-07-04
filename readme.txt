@@ -49,6 +49,9 @@ https://youtu.be/_zDO8d-8Ots
 3. Customer view of order detail page. It has link to shipping tracking pop-up.
 
 == Changelog ==
+= 1.0.1 =
+* The plugin has fix for uninstall event. Now it removes api key upon un-install of this plugin.
+
 = 1.0.0 =
 * First release of plugin!
 * Fully functional with four shipping carriers.
