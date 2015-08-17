@@ -3,7 +3,7 @@ Contributors: ubercx
 Tags: woocommerce, order tracking, order track, order trace, delivery, carriers, shipping, ship orders, e-commerce, send product, product shipping, delivery notes, track carriers, track email, delivery note, order shipping, order, orders, shop, e commerce, shipping tracking, track shipping
 Requires at least: 4.0.1
 Tested up to: 4.2.2
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 An easy to use WooCommerce plugin providing shipping tracking for your customers. Easily manage your orders and shipping.
@@ -70,8 +70,12 @@ Add tracking information to customer emails and order summary screen.
 
 == Changelog ==
 
-= 1.1.1. =
+= 1.1.2 =
+Updated screenshots
+
+= 1.1.1 =
 Updated readme
+
 = 1.1.0 =
 * Updated to now show tracking information on the order screen and in order emails to customers
 
