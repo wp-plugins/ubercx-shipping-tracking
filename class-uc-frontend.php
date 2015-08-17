@@ -40,9 +40,79 @@ class UC_Frontend extends UC_BACKEND{
 		if( $isEnable == 'Yes' ){
 			$carrier_code = get_post_meta($order_id, '_ubercx_carrier_name', true);
 			$track_id = get_post_meta($order_id, '_ubercx_tracking_number', true);
+			
+			//Simon get the text to add to the screen
+			$opt = get_option('uc_settings');
+			
+			$txt = '';
+			
+			if(isset($opt['order_text'])){
+				$txt = $opt['order_text'];
+			}
+			
+			//now do the replacement
+			$txt = str_replace('[carrier]', $carrier_code, $txt);
+			$txt = str_replace('[tracking_id]', $track_id, $txt);
+				
 			if($carrier_code != '' &&  $track_id != ''){
 				$onclick = "window.open(this.href, '','width=800,height=600,resizable=yes,scrollbars=yes'); return false;";
-				echo '<a  onclick="'.$onclick.'" class="button view" href="'.admin_url( 'admin-ajax.php' ).'/?ajax=true&carrier_code='.$carrier_code.'&track_id='.$track_id.'&order='.$order_id.'&action=uc_get_tracking_details">Track Shipment</a>';
+				//echo '<a if="uc-track-button" class="button view" href="'.admin_url( 'admin-ajax.php' ).'/?ajax=true&carrier_code='.$carrier_code.'&track_id='.$track_id.'&order='.$order_id.'&action=uc_get_tracking_details">Track Shipment</a>';
+				
+				echo '<p>' . $txt . '</p>';				
+				
+				$url =  admin_url( 'admin-ajax.php' ).'/?ajax=true&carrier_code='.$carrier_code.'&track_id='.$track_id.'&order='.$order_id.'&action=uc_get_tracking_details';
+				echo '<a id="uc-track-button" class="button view" href="#">Track Shipment</a>';
+				
+				$inline = '
+					<div id="uc-ajax-spinner" style="display: none;">
+						<img src="' . plugins_url("assets/ajax-loader.gif", __FILE__) . '">
+					</div>
+					<div id="uc-inline-tracker" style="display: hidden;">
+					</div>
+					<script>
+						jQuery(document).ready(function(){
+							
+						    jQuery("#uc-track-button").click(function(){
+						        //call the function!
+						        get_tracking_details();
+						    });
+						});
+					
+					
+					
+					
+						//will get the tracking details via ajax
+						function get_tracking_details(){
+							var carrier = "' . $carrier_code . '";
+							var id = "' . $track_id . '";
+						
+							//alert("got one" + carrier + " : " + id);
+							
+							//TODO need to set up spinner
+							jQuery("#uc-ajax-spinner").show();
+							
+							//make the jquery ajax call
+							jQuery.ajax({
+								url: "' . $url . '",
+								success: function(result){
+									//stuff it into the div!!
+									jQuery("#uc-inline-tracker").html(result);
+									jQuery("#uc-inline-tracker").css("display", "block");
+									jQuery("#uc-ajax-spinner").hide();
+									
+								},
+								error: function(error){
+									jQuery("#uc-ajax-spinner").hide();
+									//TODO add error message here.
+									alert("error" + error);
+								}
+			
+							});
+						}
+					</script>
+				';
+				
+				echo $inline;
 			}
 		}
 	 }
