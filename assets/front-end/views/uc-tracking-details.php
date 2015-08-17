@@ -10,6 +10,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+
+
+
+<script>
+
+
+</script>
+
+
+
 <style type="text/css">
 table {
 	border: 1px solid #bebcb7;
@@ -39,14 +49,11 @@ table .even {
 button {
 	float: right;
 }
+.woocommerce_tracking{
+	margin-top: 15px;
+}
 </style>
 <div class="woocommerce_tracking">
-<div class="page-title title-buttons">
-	<button onclick="window.close(); window.opener.focus();" class="button"><span><span>Close Window</span></span></button>
-	<h3>Tracking Information</h3>
-</div>
-<h4 class="sub-title">Order #<?php echo $_REQUEST['order']; ?></h4>
-<div>Tracking Number: <?php echo $track_id; ?></div>
 <?php
 if(!empty($response)){
 	if($response->header->status == 'SUCCESS'){  
@@ -59,7 +66,6 @@ if(!empty($response)){
 			$carrier = $resp_array->trackSummary->carrier;
 		}
 		?>
-<div>Carrier: <?php echo $carrier;  ?></div>
 <?php 
 		
 		if(empty($error_code)){
