@@ -69,6 +69,9 @@ Add tracking information to customer emails and order summary screen.
 6. Tracking Details. The detailed tracking information the customer can view.
 
 == Changelog ==
+
+= 1.1.1. =
+Updated readme
 = 1.1.0 =
 * Updated to now show tracking information on the order screen and in order emails to customers
 
