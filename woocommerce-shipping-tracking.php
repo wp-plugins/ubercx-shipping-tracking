@@ -3,7 +3,7 @@
  * Plugin Name: UberCX WooCommerce Order Tracking
  * Plugin URI: http://woothemes.com/products/woocommerce-plugin-ubercx-shipping-tracking/
  * Description: Easily manage your order tracking. Customers will get notified when the order is complete and shipped.
- * Version: 1.1.2
+ * Version: 1.2.1
  * Author: UberCX
  * Author URI: https://ubercx.io/
  * Developer: UberCX Team

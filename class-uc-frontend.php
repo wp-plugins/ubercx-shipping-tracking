@@ -61,22 +61,29 @@ class UC_Frontend extends UC_BACKEND{
 				echo '<p>' . $txt . '</p>';				
 				
 				$url =  admin_url( 'admin-ajax.php' ).'/?ajax=true&carrier_code='.$carrier_code.'&track_id='.$track_id.'&order='.$order_id.'&action=uc_get_tracking_details';
-				echo '<a id="uc-track-button" class="button view" href="#">Track Shipment</a>';
+				echo '<a id="uc-track-button" class="button view" href="#">Show Shipment Tracking</a>';
 				
 				$inline = '
 					<div id="uc-ajax-spinner" style="display: none;">
 						<img src="' . plugins_url("assets/ajax-loader.gif", __FILE__) . '">
 					</div>
-					<div id="uc-inline-tracker" style="display: hidden;">
+					<div id="uc-inline-tracker" style="display: none;">
 					</div>
 					<script>
-						jQuery(document).ready(function(){
-							
-						    jQuery("#uc-track-button").click(function(){
-						        //call the function!
-						        get_tracking_details();
-						    });
-						});
+					jQuery(document).ready(function(){
+					    jQuery("#uc-track-button").click(function(){
+						var trackDisplay = jQuery("#uc-inline-tracker").css("display");
+                                                //alert("display is "+trackDisplay);
+						if (trackDisplay == "hidden" || trackDisplay == "none") {
+						 //call the function!
+						  get_tracking_details();
+                                                  jQuery("#uc-track-button").text("Hide Shipment Tracking");   
+						} else {
+                                                  jQuery("#uc-track-button").text("Show Shipment Tracking");   
+						  jQuery("#uc-inline-tracker").css("display", "none");
+						}
+					    });
+					});
 					
 					
 					
