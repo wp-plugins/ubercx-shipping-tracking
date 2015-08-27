@@ -1,4 +1,4 @@
-=== UberCX WoocCommerce Order Tracking ===
+=== WoocCommerce Order Shipping Tracking ===
 Contributors: ubercx
 Tags: woocommerce, order tracking, order track, order trace, delivery, carriers, shipping, ship orders, e-commerce, send product, product shipping, delivery notes, track carriers, track email, delivery note, order shipping, order, orders, shop, e commerce, shipping tracking, track shipping
 Requires at least: 4.0.1
@@ -6,21 +6,20 @@ Tested up to: 4.2.2
 Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-An easy to use WooCommerce plugin providing shipping tracking for your customers. Easily manage your orders and shipping.
+An easy to use WooCommerce plugin providing embedded shipping tracking for your customers. Increase customer satisfaction and less support issues.
 
 == Description ==
 
-UberCX Shipping Tracking is a WooCommerce FREE plugin that allows customers to track their orders.  
-Currently, it support UPS, USPS, FEDEX & DHL. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.freshdesk.com/support/tickets/new) we are actively adding new services
+Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.freshdesk.com/support/tickets/new), as we are actively adding new services
 
 Key Features:
 
 * Supports USPS, UPS, FedEx & DHL
 * Customers receive the tracking information in their Order Complete email
-* Tracking information is shown on the customer account area
+* Tracking information is shown on the customer order details page.
 * Full tracking information (detailed activity) can be displayed by the customer
 * Easily see which orders have shipped or not, right from the order summary screen - saves time and effort
-* No more answering emails an phone calls with customers looking for their shippiing information
+* No more answering emails an phone calls with customers looking for their shipping information
 
 == Frequently Asked Questions ==
 
