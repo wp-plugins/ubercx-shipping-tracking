@@ -1,4 +1,4 @@
-=== WoocCommerce Order Shipping Tracking ===
+=== WooCommerce Order Shipping Tracking ===
 Contributors: ubercx
 Tags: woocommerce, order tracking, order track, order trace, delivery, carriers, shipping, ship orders, e-commerce, send product, product shipping, delivery notes, track carriers, track email, delivery note, order shipping, order, orders, shop, e commerce, shipping tracking, track shipping
 Requires at least: 4.0.1
