@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 //Simon - Aug 2015
 // Default the value for the text fields on the order page and email if they are blank
+// Sept. Adding in user_key and enabled as well
 //TODO we need to make all the static text be translatable
 
 if(!isset($uc_options['order_text']) || $uc_options['order_text'] == ''){
@@ -20,6 +21,14 @@ if(!isset($uc_options['order_text']) || $uc_options['order_text'] == ''){
 
 if(!isset($uc_options['email_text']) || $uc_options['email_text'] == ''){
 	$uc_options['email_text'] = 'Your orders has been shipped by [carrier]. The tracking number is: [tracking_id] ';
+}
+
+if(!isset($uc_options['user_key'])){
+	$uc_options['user_key'] = '';
+}
+
+if(!isset($uc_options['enable'])){
+	$uc_options['enable'] = 'Yes';
 }
 
 ?>
