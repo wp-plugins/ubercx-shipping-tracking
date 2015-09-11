@@ -35,6 +35,8 @@ Firstly the accounts are free, no credit card required. We use an account as we 
 
 UberCX provides premier level support. Simply [contact us here](https://ubercx.freshdesk.com/support/tickets/new) and we'll get back to you ASAP 
 
+= Screencast video on how to install and use =
+[youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
 
 == Installation ==
 = Manual Installation =
