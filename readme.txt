@@ -12,7 +12,7 @@ An easy to use WooCommerce plugin providing embedded shipping tracking for your 
 
 Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.freshdesk.com/support/tickets/new), as we are actively adding new services
 
-Key Features:
+= Key Features =
 
 * Supports USPS, UPS, FedEx & DHL
 * Customers receive the tracking information in their Order Complete email
@@ -20,6 +20,9 @@ Key Features:
 * Full tracking information (detailed activity) can be displayed by the customer
 * Easily see which orders have shipped or not, right from the order summary screen - saves time and effort
 * No more answering emails an phone calls with customers looking for their shipping information
+
+= Screencast video on how to install and use =
+[youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
 
 == Frequently Asked Questions ==
 
