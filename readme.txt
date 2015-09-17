@@ -10,7 +10,7 @@ An easy to use WooCommerce plugin providing embedded shipping tracking for your 
 
 == Description ==
 
-Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.freshdesk.com/support/tickets/new), as we are actively adding new services
+Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking), as we are actively adding new services
 
 = Key Features =
 
@@ -28,15 +28,15 @@ Shipping Tracking is FREE WooCommerce plugin that allows customers to track ship
 
 = What shipping services does the plugin support? =
 
-Currently we support USPS, UPS, FedEX & DHL. We are constantly adding new services. If you have a particular service you would like to see us include, [contact us here](https://ubercx.freshdesk.com/support/tickets/new) 
+Currently we support USPS, UPS, FedEX & DHL. We are constantly adding new services. If you have a particular service you would like to see us include, [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) 
 
 = Why do I need an UberCX Account? =
 
-Firstly the accounts are free, no credit card required. We use an account as we have a set of back-end services that provide the shipping information. We have a free tier, and for a lot of stores this is all they need. If you happen to be a high-volume store then we charge a modest amount. You can [sign up for an account here](https://developer.ubercx.io/signup?plan_ids[]=2357355826609)
+Firstly the accounts are free, no credit card required. We use an account as we have a set of back-end services that provide the shipping information. We have a free tier, and for a lot of stores this is all they need. If you happen to be a high-volume store then we charge a modest amount. You can [sign up for an account here](https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
 
 = How can I get help for this plugin? =  
 
-UberCX provides premier level support. Simply [contact us here](https://ubercx.freshdesk.com/support/tickets/new) and we'll get back to you ASAP 
+UberCX provides premier level support. Simply [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) and we'll get back to you ASAP 
 
 = Screencast video on how to install and use =
 [youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
@@ -57,7 +57,7 @@ UberCX provides premier level support. Simply [contact us here](https://ubercx.f
 = Activation =
 1.	Before activation please make sure that WooCommerce is activated. 
 2.	Upon installation you will see a link titled "Activate Plugin". Click it to activate the plugin. 
-3.	Locate the "UberCX Shipping Tracking" sub-menu under WooCommerce menu on the admin dashboard and enter the User Key. You can get the User Key [here](https://developer.ubercx.io/signup?plan_ids[]=2357355826609)
+3.	Locate the "UberCX Shipping Tracking" sub-menu under WooCommerce menu on the admin dashboard and enter the User Key. You can get the User Key [here](https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
 6.	Select Yes for the Enabled field and click "Submit".
 
 == Upgrade Notice ==
