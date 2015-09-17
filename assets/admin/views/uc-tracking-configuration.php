@@ -48,9 +48,9 @@ if(!isset($uc_options['enable'])){
 				<?php settings_fields( 'uc_register_settings' ); ?>
         
         <p><strong>User Key</strong></p>
-        <p><i>Enter your UberCX User Key here. If you do not have one, <a href="https://developer.ubercx.io/signup?plan_ids[]=2357355826609">sign up for a FREE UberCX account here</a> no credit card required</i></p>
+        <p><i>Enter your UberCX User Key here. If you do not have one, <a href="https://ubercx.io/signup?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">sign up for a FREE UberCX account here</a> no credit card required</i></p>
 				<p><input  style="width:59%;" id="uc_settings[user_key]" name="uc_settings[user_key]" type="text" value="<?php echo $uc_options['user_key']; ?>" required/>
-			<span><a target="_blank" href="https://developer.ubercx.io/signup?plan_ids[]=2357355826609">Get your User Key (open a FREE account)</a></span></p>
+			<span><a target="_blank" href="https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">Get your User Key (open a FREE account)</a></span></p>
         <p><strong>Enabled: </strong></p>
         <p><select name="uc_settings[enable]" style="width:59%;">
           <option value="Yes" <?php if($uc_options['enable'] == 'Yes') echo 'selected="selected"'; ?>>Yes</option>
