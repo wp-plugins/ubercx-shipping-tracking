@@ -1,8 +1,8 @@
 <?php
 /**
- * UberCX Shipping Tracking
+ * snapCX Shipping Tracking
  * @package UC
- * @author  Ubercx Developer <ubercx@jframeworks.com>
+ * @author  snapcx Developer <ajain@jframeworks.com>
  */
 
 // Exit if accessed directly.
@@ -101,7 +101,7 @@ class UC_BACKEND{
 	function uc_admin_menu() {
 		
 		$admin_role = 'manage_options';
-		add_submenu_page( 'woocommerce', 'UberCX Shipping Tracking' ,  'UberCX Shipping Tracking', $admin_role, $this->plugin_slug, array( $this, 'uc_main_admin_page' )); 
+		add_submenu_page( 'woocommerce', 'snapCX Shipping Tracking' ,  'snapCX Shipping Tracking', $admin_role, $this->plugin_slug, array( $this, 'uc_main_admin_page' )); 
 	}
 	
 	/**
@@ -167,7 +167,7 @@ class UC_BACKEND{
 	 */
 	function uc_add_order_tracking_meta_box(){
 		
-		 add_meta_box('woocommerce-ubercx', 'UberCX Tracking Information', array(&$this, 'uc_meta_box_view'), 'shop_order', 'side', 'high');
+		 add_meta_box('woocommerce-ubercx', 'snapCX Tracking Information', array(&$this, 'uc_meta_box_view'), 'shop_order', 'side', 'high');
 	}
 	
 	/**

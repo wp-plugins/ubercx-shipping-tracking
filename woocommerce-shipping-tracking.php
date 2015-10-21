@@ -1,17 +1,17 @@
 <?php
  /**
- * Plugin Name: UberCX WooCommerce Order Tracking
+ * Plugin Name: snapCX WooCommerce Order Tracking
  * Plugin URI: http://woothemes.com/products/woocommerce-plugin-ubercx-shipping-tracking/
  * Description: Easily manage your order tracking. Customers will get notified when the order is complete and shipped.
- * Version: 1.2.2
- * Author: UberCX
- * Author URI: https://ubercx.io/
- * Developer: UberCX Team
- * Developer URI: https://ubercx.io/
+ * Version: 1.3.0
+ * Author: snapCX
+ * Author URI: https://snapcx.io/
+ * Developer: snapCX Team
+ * Developer URI: https://snapcx.io/
  * Text Domain: woocommerce-extension
  * Domain Path: /languages
  *
- * Copyright: © 2009-2015 UberCX.
+ * Copyright: © 2009-2015 JFrameworks.com LLC.
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */

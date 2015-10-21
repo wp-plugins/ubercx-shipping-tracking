@@ -1,16 +1,16 @@
 === WooCommerce Order Shipping Tracking ===
-Contributors: ubercx
+Contributors: snapcx
 Tags: woocommerce, order tracking, order track, order trace, delivery, carriers, shipping, ship orders, e-commerce, send product, product shipping, delivery notes, track carriers, track email, delivery note, order shipping, order, orders, shop, e commerce, shipping tracking, track shipping
 Requires at least: 4.0.1
 Tested up to: 4.2.2
-Stable tag: 1.2.2
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 An easy to use WooCommerce plugin providing embedded shipping tracking for your customers. Increase customer satisfaction and less support issues.
 
 == Description ==
 
-Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking), as we are actively adding new services
+Shipping Tracking is FREE WooCommerce plugin that allows customers to track shipment of their orders. Currently, it support UPS, USPS, FEDEX & DHL shipping carriers. If you have another shipping service that you are interested in then please [contact us here](https://snapcx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking), as we are actively adding new services
 
 = Key Features =
 
@@ -21,22 +21,29 @@ Shipping Tracking is FREE WooCommerce plugin that allows customers to track ship
 * Easily see which orders have shipped or not, right from the order summary screen - saves time and effort
 * No more answering emails an phone calls with customers looking for their shipping information
 
+**Demo server with installed plugin**
+<a href="http://demo.snapcx.io/wordpress/index.php/product/blue-shirt?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking" target="_blank">Click here</a>
+
 = Screencast video on how to install and use =
 [youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
+
+**Related Plugins**
+Enhance your checkout experience for your customers by providing them real time address validation on shipping address. See our other plugin for [Address Validation and Correction](https://wordpress.org/plugins/woo-address-validation/)
+
 
 == Frequently Asked Questions ==
 
 = What shipping services does the plugin support? =
 
-Currently we support USPS, UPS, FedEX & DHL. We are constantly adding new services. If you have a particular service you would like to see us include, [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) 
+Currently we support USPS, UPS, FedEX & DHL. We are constantly adding new services. If you have a particular service you would like to see us include, [contact us here](https://snapcx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) 
 
-= Why do I need an UberCX Account? =
+= Why do I need an snapCX Account? =
 
-Firstly the accounts are free, no credit card required. We use an account as we have a set of back-end services that provide the shipping information. We have a free tier, and for a lot of stores this is all they need. If you happen to be a high-volume store then we charge a modest amount. You can [sign up for an account here](https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
+Firstly the accounts are free, no credit card required. We use an account as we have a set of back-end services that provide the shipping information. We have a free tier, and for a lot of stores this is all they need. If you happen to be a high-volume store then we charge a modest amount. You can [sign up for an account here](https://snapcx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
 
 = How can I get help for this plugin? =  
 
-UberCX provides premier level support. Simply [contact us here](https://ubercx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) and we'll get back to you ASAP 
+snapCX provides premier level support. Simply [contact us here](https://snapcx.io/contact?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking) and we'll get back to you ASAP 
 
 = Screencast video on how to install and use =
 [youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
@@ -51,14 +58,20 @@ UberCX provides premier level support. Simply [contact us here](https://ubercx.i
 		
 = Automatic Installation =
 1.	Go to your website's WordPress Dashboard and click on "Plugins" -> "Add New"
-2.	In the "Search Plugins" bar enter "UberCX Shipping Tracking" or only "UberCX" to find the WooCommerce Shipping Tracking Plugin
+2.	In the "Search Plugins" bar enter "snapCX Shipping Tracking" or only "snapCX" to find the WooCommerce Shipping Tracking Plugin
 3.	Click "Install Now" to install the plugin.
 		
 = Activation =
 1.	Before activation please make sure that WooCommerce is activated. 
 2.	Upon installation you will see a link titled "Activate Plugin". Click it to activate the plugin. 
-3.	Locate the "UberCX Shipping Tracking" sub-menu under WooCommerce menu on the admin dashboard and enter the User Key. You can get the User Key [here](https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
+3.	Locate the "snapCX Shipping Tracking" sub-menu under WooCommerce menu on the admin dashboard and enter the User Key. You can get the User Key [here](https://snapcx.io/signup/free?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking)
 6.	Select Yes for the Enabled field and click "Submit".
+
+= Demo server with installed plugin =
+<a href="http://demo.snapcx.io/wordpress/index.php/product/blue-shirt?utm_source=wordpress&utm_medium=landing&utm_campaign=tracking" target="_blank">Click here</a>
+
+= Screencast video on how to install and use =
+[youtube https://www.youtube.com/watch?v=NgzDcMgCLSM]
 
 == Upgrade Notice ==
 Add tracking information to customer emails and order summary screen.
@@ -73,6 +86,9 @@ Add tracking information to customer emails and order summary screen.
 6. Tracking Details. The detailed tracking information the customer can view.
 
 == Changelog ==
+
+= 1.3.0 = 
+Renamed plugin from ubercx to snapcx. ubercx.io is not snapcx. No new functionality added or no bugs fixed in this release.
 
 = 1.2.1 =
 Customer interface is reworked to look more professional
@@ -93,7 +109,6 @@ Updated readme
 
 = 1.0.1 =
 * The plugin has fix for uninstall event. Now it removes api key upon un-install of this plugin.
-
 
 = 1.0.0 =
 * First release of plugin!

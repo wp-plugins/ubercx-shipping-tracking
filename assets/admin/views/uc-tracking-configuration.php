@@ -1,8 +1,8 @@
 <?php
 /**
- * UberCX Shipping Tracking
+ * snapCX Shipping Tracking
  * @package UC
- * @author  Ubercx Developer <ubercx@jframeworks.com>
+ * @author  snapcx Developer <ajain@jframeworks.com>
  */
  
 // Exit if accessed directly.
@@ -36,7 +36,7 @@ if(!isset($uc_options['enable'])){
 
 <div class="wrap">
 		<div id="fsb-wrap" class="fsb-help">
-			<h2>UberCX Shipping Tracking Settings</h2>
+			<h2>snapCX Shipping Tracking Settings</h2>
 			  <?php
 			  if ( ! isset( $_REQUEST['updated'] ) )
 				  $_REQUEST['updated'] = false;
@@ -48,9 +48,9 @@ if(!isset($uc_options['enable'])){
 				<?php settings_fields( 'uc_register_settings' ); ?>
         
         <p><strong>User Key</strong></p>
-        <p><i>Enter your UberCX User Key here. If you do not have one, <a href="https://ubercx.io/signup?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">sign up for a FREE UberCX account here</a> no credit card required</i></p>
+        <p><i>Enter your snapCX User Key here. If you do not have one, <a href="https://snapcx.io/signup?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">sign up for a FREE snapCX account here</a> no credit card required</i></p>
 				<p><input  style="width:59%;" id="uc_settings[user_key]" name="uc_settings[user_key]" type="text" value="<?php echo $uc_options['user_key']; ?>" required/>
-			<span><a target="_blank" href="https://ubercx.io/signup/free?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">Get your User Key (open a FREE account)</a></span></p>
+			<span><a target="_blank" href="https://snapcx.io/signup/free?utm_source=wordpress&utm_medium=admin&utm_campaign=tracking">Get your User Key (open a FREE account)</a></span></p>
         <p><strong>Enabled: </strong></p>
         <p><select name="uc_settings[enable]" style="width:59%;">
           <option value="Yes" <?php if($uc_options['enable'] == 'Yes') echo 'selected="selected"'; ?>>Yes</option>
