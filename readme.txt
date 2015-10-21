@@ -2,7 +2,7 @@
 Contributors: snapcx
 Tags: woocommerce, order tracking, order track, order trace, delivery, carriers, shipping, ship orders, e-commerce, send product, product shipping, delivery notes, track carriers, track email, delivery note, order shipping, order, orders, shop, e commerce, shipping tracking, track shipping
 Requires at least: 4.0.1
-Tested up to: 4.2.2
+Tested up to: 4.3.1
 Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
