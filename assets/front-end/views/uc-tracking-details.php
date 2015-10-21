@@ -1,8 +1,8 @@
 <?php
 /**
- * UberCX Shipping Tracking
+ * snapCX Shipping Tracking
  * @package UC
- * @author  Ubercx Developer <ubercx@jframeworks.com>
+ * @author  snapcx Developer <ajain@jframeworks.com>
  */
  
 // Exit if accessed directly.
