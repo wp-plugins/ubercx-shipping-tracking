@@ -88,7 +88,7 @@ Add tracking information to customer emails and order summary screen.
 == Changelog ==
 
 = 1.3.0 = 
-Renamed plugin from ubercx to snapcx. ubercx.io is not snapcx. No new functionality added or no bugs fixed in this release.
+Renamed plugin from ubercx to snapcx. ubercx.io is now snapcx. No new functionality added or no bugs fixed in this release.
 
 = 1.2.1 =
 Customer interface is reworked to look more professional
